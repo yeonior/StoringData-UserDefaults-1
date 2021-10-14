@@ -13,6 +13,7 @@
 		A24746B32717092700AF884A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24746B12717092700AF884A /* Main.storyboard */; };
 		A24746B52717092800AF884A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24746B42717092800AF884A /* Assets.xcassets */; };
 		A24746B82717092800AF884A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24746B62717092800AF884A /* LaunchScreen.storyboard */; };
+		A26A9AEC2718A4830041E492 /* AddressesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A9AEB2718A4830041E492 /* AddressesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A24746B42717092800AF884A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24746B72717092800AF884A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24746B92717092800AF884A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26A9AEB2718A4830041E492 /* AddressesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A24746AB2717092700AF884A /* AppDelegate.swift */,
 				A24746AD2717092700AF884A /* SceneDelegate.swift */,
 				A24746AF2717092700AF884A /* ViewController.swift */,
+				A26A9AEB2718A4830041E492 /* AddressesViewController.swift */,
 				A24746B12717092700AF884A /* Main.storyboard */,
 				A24746B42717092800AF884A /* Assets.xcassets */,
 				A24746B62717092800AF884A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A24746B02717092700AF884A /* ViewController.swift in Sources */,
+				A26A9AEC2718A4830041E492 /* AddressesViewController.swift in Sources */,
 				A24746AC2717092700AF884A /* AppDelegate.swift in Sources */,
 				A24746AE2717092700AF884A /* SceneDelegate.swift in Sources */,
 			);
