@@ -7,17 +7,17 @@
 
 import UIKit
 
-struct KeyDefaults {
-    static let city = "city"
-    static let street = "street"
-    static let house = "house"
-    static let building = "building"
-    static let apartment = "apartment"
-}
+//struct KeyDefaults {
+//    static let city = "city"
+//    static let street = "street"
+//    static let house = "house"
+//    static let building = "building"
+//    static let apartment = "apartment"
+//}
 
 class ViewController: UIViewController {
     
-    let defaults = UserDefaults.standard
+//    let defaults = UserDefaults.standard
 
     @IBOutlet weak var cityTextFIeld: UITextField!
     @IBOutlet weak var streetTextField: UITextField!
@@ -32,11 +32,11 @@ class ViewController: UIViewController {
 //        defaults.removeObject(forKey: KeyDefaults.house)
 //        defaults.removeObject(forKey: KeyDefaults.building)
 //        defaults.removeObject(forKey: KeyDefaults.apartment)
-        cityTextFIeld.text = defaults.string(forKey: KeyDefaults.city)
-        streetTextField.text = defaults.string(forKey: KeyDefaults.street)
-        houseTextField.text = defaults.string(forKey: KeyDefaults.house)
-        buildingTextField.text = defaults.string(forKey: KeyDefaults.building)
-        apartmentTextField.text = defaults.string(forKey: KeyDefaults.apartment)
+//        cityTextFIeld.text = defaults.string(forKey: KeyDefaults.city)
+//        streetTextField.text = defaults.string(forKey: KeyDefaults.street)
+//        houseTextField.text = defaults.string(forKey: KeyDefaults.house)
+//        buildingTextField.text = defaults.string(forKey: KeyDefaults.building)
+//        apartmentTextField.text = defaults.string(forKey: KeyDefaults.apartment)
     }
 
     @IBAction func saveButton(_ sender: Any) {
