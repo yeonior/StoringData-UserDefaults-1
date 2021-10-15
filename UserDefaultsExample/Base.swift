@@ -18,6 +18,9 @@ class Base {
         var house: String
         var building: String?
         var apartment: String
+        var description: String {
+            return "\(city), \(street), \(house), \(building ?? "no building"), \(apartment)"
+        }
     }
     
     var addresses: [UserAddress] {

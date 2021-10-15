@@ -48,11 +48,8 @@ class ViewController: UIViewController {
         let building = buildingTextField.text!
         
         if !city.isEmpty && !street.isEmpty && !house.isEmpty && !apartment.isEmpty {
-            defaults.setValue(city, forKey: KeyDefaults.city)
-            defaults.setValue(street, forKey: KeyDefaults.street)
-            defaults.setValue(house, forKey: KeyDefaults.house)
-            defaults.setValue(building, forKey: KeyDefaults.building)
-            defaults.setValue(apartment, forKey: KeyDefaults.apartment)
+            Base.shared.saveAddress(city: city, street: street, house: house, building: building, apartment: apartment)
+            navigationController?.popViewController(animated: true)
         }
     }
 }
